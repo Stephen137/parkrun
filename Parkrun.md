@@ -1,13 +1,3 @@
----
-title: "parkrun Kraków 20/05/2023 | #461"
-author: "Stephen Barrie"
-date: "2023-05-23"
-execute:
-  output: true
-code-fold: false
-categories: [pandas, seaborn, Data Cleansing, parkrun]
-image: 'pre_race.jpg'
----
 # parkrun Kraków 5k 20/05/2023 | #461
 
 ## Overview | Motivation
@@ -16,7 +6,7 @@ A couple of weeks ago I signed up for [parkrun Kraków]('https://www.parkrun.pl/
 
 It turns out it was the 10 year anniversary of the event in Kraków, and there was a great atmosphere, and quite a few more runners than on my dry run!
 
-![happy_birthday.jpg](attachment:9653929b-1388-49fc-bf41-8726abd6ea53.jpg)
+![](images/happy_birthday.jpg)
 
 After the race I thought it would be fun to do a bit of a data dive on this race. My aim was to gain an insight into the distribution of competitors across age and sex, and I was particularly interested in discovering whether being affiliated with a running club results in a faster race time (as you might expect) compared to unattached runners like me.
 
@@ -210,7 +200,7 @@ We can see that although there are 355 observations for 'Position', we only have
 
 ### NaN values
 
-![NAN.jpg](attachment:14e569cd-a522-42a3-b421-0dd38b179101.jpg)
+![NaN](images/NAN.jpg)
 
 
 ```python
